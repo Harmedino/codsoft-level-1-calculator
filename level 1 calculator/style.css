@@ -9,6 +9,9 @@ body {
 
 .calculator {
     background-color: white;
+    width: 30%;
+    height: 40vh;
+    margin: auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -17,15 +20,19 @@ body {
 input {
     width: 100%;
     font-size: 24px;
-    text-align: right;
-    border: none;
-    margin-bottom: 10px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-auto-rows: auto;
+    height: 170px;
+    gap: 20px;
 }
 
 .button {
@@ -33,12 +40,13 @@ input {
     padding: 10px;
     text-align: center;
     cursor: pointer;
-    border: none;
     border-radius: 5px;
+    width: 80px; 
+    height: 80px; 
 }
 
 .number-button {
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
 }
 
