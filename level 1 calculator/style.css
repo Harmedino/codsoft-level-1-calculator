@@ -4,56 +4,51 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: blue;
+    background-color: #f0f0f0;
 }
 
 .calculator {
-    background-color: white;
-    width: 30%;
-    height: 40vh;
-    margin: auto;
-    padding: 20px;
+    background-color: #333;
+    width: 350px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
 input {
     width: 100%;
     font-size: 24px;
-    text-align: left;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 5px;
-    margin-bottom: 20px;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #444;
+    color: white;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    height: 170px;
-    gap: 20px;
+    gap: 10px;
 }
 
-.button {
+.button, .operation-button {
     font-size: 24px;
     padding: 10px;
     text-align: center;
     cursor: pointer;
+    border: none;
     border-radius: 5px;
-    width: 80px; 
-    height: 80px; 
-}
-
-.number-button {
-    background-color: blue;
+    background-color: #666;
     color: white;
+    transition: background-color 0.2s;
 }
 
 .operation-button {
-    background-color: #f2f2f2;
+    background-color: #ff7800;
 }
 
 .operation-button:hover {
-    background-color: #ddd;
+    background-color: #ff9e44;
 }
