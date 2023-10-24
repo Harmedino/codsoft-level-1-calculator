@@ -33,7 +33,7 @@ input {
     gap: 10px;
 }
 
-.button, .operation-button {
+.button, .operation {
     font-size: 24px;
     padding: 10px;
     text-align: center;
@@ -45,11 +45,11 @@ input {
     transition: background-color 0.2s;
 }
 
-.operation-button {
+.operation {
     background-color: #ff7800;
 }
 
-.operation-button:hover {
+.operation:hover {
     background-color: #ff9e44;
 }
 
