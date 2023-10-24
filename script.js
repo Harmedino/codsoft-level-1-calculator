@@ -27,6 +27,7 @@ clear.addEventListener("click", () => {
 
 // Event listeners for operation buttons
 operations.forEach((opera) => {
+  
   opera.addEventListener("click", function (event) {
     if (confirm) {
       screen.value += event.target.textContent;
