@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
 </head>
 <body>
     <div class="calculator">
-        <input type="text" id="display" readonly value="0">
-        <div class="buttons">
+        <div class="input-container">
+            <input type="text" id="display" readonly value="0">
+            <span id="delete" class="icon"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+        </div>        <div class="buttons">
             <button id="btn" class="button">7</button>
             <button id="btn" class="button">8</button>
             <button id="btn" class="button">9</button>

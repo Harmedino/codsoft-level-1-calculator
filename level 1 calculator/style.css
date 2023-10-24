@@ -57,25 +57,16 @@ input {
     position: relative;
 }
 
-#display {
-    padding-left: 30px; /* Adjust the padding as needed to create space for the icon */
-    background-color: red; /* Set the background color */
-    border: none; /* Remove the border if needed */
-}
-
 #delete {
     position: absolute;
-    left: 5px; /* Adjust the left position as needed for the desired position */
-    top: 50%; /* Vertically center the icon */
-    transform: translateY(-50%); /* Vertically center the icon */
-    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
-    font-size: 18px; /* Adjust the size of the icon */
-    color: white; /* Icon color */
+    left: 5px;
+    top: 40%; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+    color: rgb(245, 6, 6);
 }
 
 .icon {
-    font-size: 18px; /* Adjust the size of the icon */
-    color: white; /* Icon color */
+    font-size: 24px; 
+    color: white;
 }
-
-/* Rest of your CSS styles for buttons, etc. */
