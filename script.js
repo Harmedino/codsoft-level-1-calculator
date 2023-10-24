@@ -2,7 +2,7 @@ let confirm = true; // Flag to control repeating operations
 const screen = document.getElementById("display");
 const buttons = document.querySelectorAll(".button");
 const clear = document.getElementById("clear");
-const operations = document.querySelectorAll(".operation-button");
+const operations = document.querySelectorAll("#operation");
 const equal = document.getElementById("equal");
 const del = document.getElementById("delete");
 
